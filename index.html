@@ -32,11 +32,31 @@
                     <img class="gallery-img" src="img/9.png" alt="">
                 </div>
             </div>
+            <div class="chart">
+                <div id="donut">
+                    <div id="my_dataviz"></div>
+                    <div>
+                        <ul id="chart-list">
+                            <div  class="donut-list" id="commerce-div-chart"></div>
+                            <li class="donut-list" >Commercial</li>
+                            <div class="donut-list"  id="resident-div-chart"></div>
+                            <li class="donut-list" >Residential</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="value-bar-chart">
+                    <canvas id="bar-chart"></canvas>
+                </div>
+            </div>
         </main>
         <footer>&copy;Copyright design by  <a href="wa.me.+6285271926369">Raymond</a></footer>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/105/three.min.js" integrity="sha512-uWKImujbh9CwNa8Eey5s8vlHDB4o1HhrVszkympkm5ciYTnUEQv3t4QHU02CUqPtdKTg62FsHo12x63q6u0wmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="./js/panolens.min.js"></script>
+
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/bar.js"></script>
+    <script src="js/donut.js"></script>
     <script src="./js/main.js"></script>
 </body>
 </html>

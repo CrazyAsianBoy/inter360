@@ -35,3 +35,27 @@
 .gallery-img{
     width: 300px;
 }
+
+#chart-list{
+    display:flex;
+    list-style-type: none;
+}
+
+.donut-list{
+    margin: 20px 30px;
+}
+#commerce-div-chart{
+    width: 20px;
+    height: 10px;
+    background-color: #C7E8F3;
+}
+
+#resident-div-chart{
+    width: 20px;
+    height: 10px;
+    background-color: #BF9ACA;
+}
+/* 
+#bar-chart{
+    width: 100px;
+} */
