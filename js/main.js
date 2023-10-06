@@ -6,5 +6,6 @@ const viewer = new PANOLENS.Viewer({
     autoRotate:true,
     autoRotateSpeed:0.3,
     controlBar:true,
+    DeviceOrientationControls: true
 });
 viewer.add( panorama );
