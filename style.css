@@ -9,16 +9,10 @@
     padding: 1px;
 }
 
-#hero{
-    display: flex;
-}
-
-#panorama {
+#panorama,#panorama2 {
     position: relative;
     display: block;
     width: 100%;
-    height: 70vh;
-    /* padding: 50px; */
-    /* overflow: hidden; */
+    height: 50vh;
     background-color: aqua;
 }
