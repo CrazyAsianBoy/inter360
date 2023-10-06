@@ -18,6 +18,7 @@
 }
 
 .nav-list{
+    width: 100%;
     background-color: rgb(210, 167, 251);
     display: flex;
     list-style-type: none;
