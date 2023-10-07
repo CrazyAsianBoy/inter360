@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>interrior 360</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav-list">
+                <li><a href="index.html">Rooms</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <main>
+            <div id="gallery">
+                <h1>GALLERY</h1>
+                <p>Explore interrior design with a 360 panorama experience</p>
+                <div>
+                    <img class="gallery-img" src="img/1.png" alt="">
+                    <img class="gallery-img" src="img/2.png" alt="">
+                    <img class="gallery-img" src="img/3.png" alt="">
+                    <img class="gallery-img" src="img/4.png" alt="">
+                    <img class="gallery-img" src="img/5.png" alt="">
+                    <img class="gallery-img" src="img/6.png" alt="">
+                    <img class="gallery-img" src="img/7.png" alt="">
+                    <img class="gallery-img" src="img/8.png" alt="">
+                    <img class="gallery-img" src="img/9.png" alt="">
+                </div>
+            </div>
+            <div class="chart">
+                <div id="donut">
+                    <div id="my_dataviz"></div>
+                    <div>
+                        <ul id="chart-list">
+                            <div  class="donut-list" id="commerce-div-chart"></div>
+                            <li class="donut-list" >Commercial</li>
+                            <div class="donut-list"  id="resident-div-chart"></div>
+                            <li class="donut-list" >Residential</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="value-bar-chart">
+                    <canvas id="bar-chart"></canvas>
+                </div>
+            </div>
+        </main>
+        <footer>&copy;Copyright design by  <a href="wa.me.+6285271926369">Raymond</a></footer>
+    </div>
+
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/bar.js"></script>
+    <script src="js/donut.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

@@ -4,59 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    
-    <title>interrior 360</title>
+    <title>Inter360</title>
 </head>
 <body>
     <div class="container">
-        <nav class="nav">
-            <ul class="nav-list">
-                <li><a href="index.html">Rooms</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <main>
-            <div id="gallery">
-                <h1>GALLERY</h1>
-                <p>Explore interrior design with a 360 panorama experience</p>
-                <div>
-                    <img class="gallery-img" src="img/1.png" alt="">
-                    <img class="gallery-img" src="img/2.png" alt="">
-                    <img class="gallery-img" src="img/3.png" alt="">
-                    <img class="gallery-img" src="img/4.png" alt="">
-                    <img class="gallery-img" src="img/5.png" alt="">
-                    <img class="gallery-img" src="img/6.png" alt="">
-                    <img class="gallery-img" src="img/7.png" alt="">
-                    <img class="gallery-img" src="img/8.png" alt="">
-                    <img class="gallery-img" src="img/9.png" alt="">
-                </div>
+        <div class="banner">
+            <div class="banner-content">
+
+                <h1>BUILD A HOME NOT A HOUSE</h1>
+                <p>"Transforming Spaces, Elevating Lives - Where design meets destiny!"</p>
+                <button>Call us now</button>
             </div>
-            <div class="chart">
-                <div id="donut">
-                    <div id="my_dataviz"></div>
-                    <div>
-                        <ul id="chart-list">
-                            <div  class="donut-list" id="commerce-div-chart"></div>
-                            <li class="donut-list" >Commercial</li>
-                            <div class="donut-list"  id="resident-div-chart"></div>
-                            <li class="donut-list" >Residential</li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="value-bar-chart">
-                    <canvas id="bar-chart"></canvas>
-                </div>
+        </div>
+        <div class="gallery">
+            <h3>LOOK AROUND OUR INTERIRO DESIGN IN 360</h3>
+            <img class="gallery-img" src="./img/1.png" alt="gallery image">
+            <img class="gallery-img" src="./img/2.png" alt="gallery image">
+            <img class="gallery-img" src="./img/3.png" alt="gallery image">
+            <img class="gallery-img" src="./img/4.png" alt="gallery image">
+            <img class="gallery-img" src="./img/5.png" alt="gallery image">
+            <img class="gallery-img" src="./img/6.png" alt="gallery image">
+            <img class="gallery-img" src="./img/7.png" alt="gallery image">
+            <img class="gallery-img" src="./img/8.png" alt="gallery image">
+            <img class="gallery-img" src="./img/9.png" alt="gallery image">
+        </div>
+        <div class="statistic">
+            <div class="donut"></div>
+            <div class="bar-chart"></div>
+        </div>
+        <footer>
+            <div class="contact">
+                <h2>Contact Us</h2>
+                <p>John Doe</p>
+                <p>+1 234 567 890</p>
+                <p>johndoe@notanemail.com</p>
+                <p>Jane Doe</p>
+                <p>+1 234 567 890</p>
+                <p>janedoe@notanemail.com</p>
             </div>
-        </main>
-        <footer>&copy;Copyright design by  <a href="wa.me.+6285271926369">Raymond</a></footer>
+            <div class="form">
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                
+                    <button type="submit">Submit</button>
+                  </form>
+            </div>
+        </footer>
     </div>
-
-
-    <script src="https://d3js.org/d3.v4.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="js/bar.js"></script>
-    <script src="js/donut.js"></script>
-    <script src="./js/main.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>

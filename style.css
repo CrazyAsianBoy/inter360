@@ -7,12 +7,6 @@ nav{
     padding: 0;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 #panorama,#panorama2 {
     position: relative;
     display: block;
@@ -63,7 +57,40 @@ nav{
     height: 10px;
     background-color: #BF9ACA;
 }
-/* 
-#bar-chart{
-    width: 100px;
-} */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 10% 90px;
+    /* padding: 20px; */
+    background-image: url(./img/banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+    box-sizing: border-box;
+}
+
+.banner-content{
+    text-align: right;
+    flex-grow: 1;
+}
+
+.banner h1, .banner p, .banner button {
+    margin: 0;
+    color: #0f0101;
+    /* text-align: right; */
+  }
+
+  .banner button {
+    background-color: #000000;
+    color: #fff5e4;
+    padding: 10px 20px;
+    margin: 30px 0;
+    border: none;
+    border-radius: 9%;
+    cursor: pointer;
+  }
