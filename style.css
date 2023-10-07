@@ -38,14 +38,19 @@
     /* text-align: right; */
   }
 
-  .banner button {
+  button {
     background-color: #000000;
     color: #fff5e4;
     padding: 10px 20px;
     margin: 30px 0;
     border: none;
-    border-radius: 9%;
+    border-radius: 7px;
     cursor: pointer;
+  }
+
+  .banner button{
+    color: #fff5e4;
+    margin-top: 50px;
   }
 
   div.gallery{
@@ -113,8 +118,48 @@ ul#chart-list{
     height: 300px;
 }
 
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
 
+.contact h2 , .contact p{
+    margin: 10px;
+}
+div.contact, div.form{
+    width: 30%;
+}
+
+.form form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+div.form{
+    padding-top: 55px;
+}
+label, input#name, input#email, textarea#message, div.form button{
+    margin: 5px;
+}
+
+input#name, input#email, textarea#message{
+    border: none;
+}
+
+input#name, input#email{
+    height: 30px;
+}
+
+.contact-name{
+    font-weight:bold;
+    font-size: large;
+}
 
   footer{
     background-color: #e3c289;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
   }
