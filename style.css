@@ -2,10 +2,6 @@
     padding: 0;
     margin: 0;
 }
-nav{
-    margin: 0;
-    padding: 0;
-}
 
 #panorama,#panorama2 {
     position: relative;
@@ -13,45 +9,6 @@ nav{
     width: 100%;
     height: 50vh;
     background-color: aqua;
-}
-
-
-.nav-list{
-
-    background-color: rgb(210, 167, 251);
-    display: flex;
-    list-style-type: none;
-    justify-content: center;
-
-}
-
-.nav-list li{
-    padding: 20px 40px;
-}
-
-.nav-list li a{
-    text-decoration: none !important;
-    color: inherit;
-}
-
-#chart-list{
-    display:flex;
-    list-style-type: none;
-}
-
-.donut-list{
-    margin: 20px 30px;
-}
-#commerce-div-chart{
-    width: 20px;
-    height: 10px;
-    background-color: #C7E8F3;
-}
-
-#resident-div-chart{
-    width: 20px;
-    height: 10px;
-    background-color: #BF9ACA;
 }
 
 .banner{
@@ -116,10 +73,47 @@ nav{
     border-radius: 13px;
 }
 
+.statistic h2{
+    margin: 30px;
+}
   div.statistic{
     background-color: #fff5e4;
-    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
+div.stat{
+    display: flex;
+    align-items: center;
+}
+#commerce-div-chart{
+    width: 20px;
+    height: 10px;
+    background-color: #C7E8F3;
+}
+
+#resident-div-chart{
+    width: 20px;
+    height: 10px;
+    background-color: #BF9ACA;
+}
+
+ul#chart-list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+}
+
+.donut-list{
+    margin: 20px;
+}
+#bar-chart{
+    width: 30%;
+    height: 300px;
+}
+
+
 
   footer{
     background-color: #e3c289;
