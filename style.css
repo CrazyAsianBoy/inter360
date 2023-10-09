@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-#panorama,#panorama2 {
+#panorama,#panorama2,#panorama3, #panorama4, #panorama5, #panorama6, #panorama7, #panorama8,#panorama9 {
     position: relative;
     display: block;
     width: 100%;
@@ -14,6 +14,11 @@
     height: 80vh;
     background-color: #f4dfb9ff;
 }
+
+.pano-content a p{
+    margin-left: 55px;
+}
+
 .banner{
     display: flex;
     flex-direction: column;
