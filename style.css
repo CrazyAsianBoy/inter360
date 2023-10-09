@@ -87,7 +87,8 @@
 }
 
 .statistic h2{
-    margin: 30px;
+    margin: 60px 0;
+    /* padding: 90px 0; */
 }
   div.statistic{
     background-color: #fff5e4;
@@ -98,7 +99,15 @@
 div.stat{
     display: flex;
     align-items: center;
+    padding-bottom: 70px;
 }
+
+.statistic p{
+  padding: 0px 150px;
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
 #commerce-div-chart{
     width: 20px;
     height: 10px;
